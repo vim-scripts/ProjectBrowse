@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=943
+
+Generate a list of files below a set of root directories for rapidly finding and editing medium sized source trees. Intended for moderate sized programming projects with several thousand header and source files, but will be useful to anyone editing large numbers of files in a structured directory layout. ( e.g.: websites, config files, etc )
+
+The file list can be set to appear either in a new buffer or in the local buffer. Place the cursor on the line of the file of interest and hit return. Although searching may be done in any way, the suggested usage is the / ( slash search ) command. The buffer is set locally to be case insensitive and not use highlighting. Press / and then type the first few characters of the file of interest followed by return ( twice ).
+
+I created this script in response to the browser that ships with the popular Visual Assist program by Whole Tomato Software for MS Visual .NET. I prefer to use vim for all my editing and ctags is great, but when you have another developer telling you to "Go to file SomeWierdFileDeepInTheDirectoryStructure.cpp" it can be pretty slow and painful sometimes. This browser solves that problem directly.
+
+This script has been under nearly daily usage by myself and several others. Now it has been highly optimized to cache the search results to a file. Special thanks to Steven An.
+
+Please feel free to email me with bugs or feature requests, or just if you like it. I am required to use gvim and .NET extensively, so i am interested in additional features or tips that you want to see.
+
